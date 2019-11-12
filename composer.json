@@ -1,0 +1,30 @@
+{
+  "name": "6dreams/streams-reader",
+  "description": "Allows partial parse XML or JSON as stream",
+  "type": "library",
+  "license": "MIT",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2"
+  },
+  "authors": [
+    {
+      "name": ".fry",
+      "email": "fry@6dreams.net"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "8.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "SixDreams\\StreamReader\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SixDreams\\Tests\\": "tests/"
+    }
+  }
+}
